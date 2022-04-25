@@ -25,14 +25,12 @@ import UIKit
  ![placeholder](placeholder.png)
  */
 
+var str = "12.34KB"
 
+let size = 12.34
+str = String(size) + "KB"
 
-
-
-
-
-
-
+str = "\(size)KB"
 
 
 
@@ -41,18 +39,32 @@ import UIKit
  ## Format Specifier
  ![format-specifier](format-specifier.png)
  */
+String(format: "%d", 12)
+
+String(format: "%010.3f", 12.34)
+
+String(format: "[%d]",123)
+String(format: "[%10d]",123)
+String(format: "[%-10d]",123)
+
+let firstName = "Jinhong"
+let lastName = "Park"
+let korFormat = "내 이름은 %2$@ %1$@ 이다."
+let engFormat = "My name is %@ %@."
+String(format: korFormat, firstName, lastName)
+String(format: engFormat, firstName, lastName)
+
+str = "\\"
+print(str)
+
+print("A\tB")
+print("C\nD")
+
+print("\"Hello\" He said.",terminator: "")
 
 
-
-
-
-
-
-
-
-
-
-
+let s = Size(width: 1.2, height: 3.4)
+print("\(s)")
 
 
 

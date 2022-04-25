@@ -659,21 +659,28 @@
 //
 
 
+//1712
+//
+//import Foundation
+//let a:String = readLine()!
+//let b = a.components(separatedBy: " ")
+//let A:Int = Int(b[0])!
+//let B:Int = Int(b[1])!
+//let C:Int = Int(b[2])!
+//let re:Int = A/(C-B)+1
+//if B>C {
+//    print("-1")
+//} else{
+//    print(re)
+//}
+
+
 //10809
 
-//let S = readLine()!
-
-
-//1712
-
-let a:String = readLine()!
-let b = a.components(separatedBy: " ")
-let A:Int = Int(b[0])!
-let B:Int = Int(b[1])!
-let C:Int = Int(b[2])!
-let re:Int = A/(C-B)+1
-if B>C {
-    print("-1")
-} else{
-    print(re)
+let S = readLine()!
+let N = S.count
+var arr = [Int](repeating: 0, count: 26)
+for i in Character("a").asciiValue!...Character("z").asciiValue! {
+    arr[i] = (Character(UnicodeScalar(i)!))
 }
+print(arr)

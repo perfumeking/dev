@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC446DF528153533003DC17F /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC446DF528153533003DC17F /* jinhong1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinhong1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC446DF828153533003DC17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC446DFA28153533003DC17F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC446DFC28153533003DC17F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		BC446DF628153533003DC17F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC446DF528153533003DC17F /* test1.app */,
+				BC446DF528153533003DC17F /* jinhong1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC446DF428153533003DC17F /* test1 */ = {
+		BC446DF428153533003DC17F /* jinhong1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC446E0928153533003DC17F /* Build configuration list for PBXNativeTarget "test1" */;
+			buildConfigurationList = BC446E0928153533003DC17F /* Build configuration list for PBXNativeTarget "jinhong1" */;
 			buildPhases = (
 				BC446DF128153533003DC17F /* Sources */,
 				BC446DF228153533003DC17F /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = test1;
+			name = jinhong1;
 			productName = test1;
-			productReference = BC446DF528153533003DC17F /* test1.app */;
+			productReference = BC446DF528153533003DC17F /* jinhong1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC446DF028153533003DC17F /* Build configuration list for PBXProject "test1" */;
+			buildConfigurationList = BC446DF028153533003DC17F /* Build configuration list for PBXProject "jinhong1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC446DF428153533003DC17F /* test1 */,
+				BC446DF428153533003DC17F /* jinhong1 */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC446DF028153533003DC17F /* Build configuration list for PBXProject "test1" */ = {
+		BC446DF028153533003DC17F /* Build configuration list for PBXProject "jinhong1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC446E0728153533003DC17F /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC446E0928153533003DC17F /* Build configuration list for PBXNativeTarget "test1" */ = {
+		BC446E0928153533003DC17F /* Build configuration list for PBXNativeTarget "jinhong1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC446E0A28153533003DC17F /* Debug */,
